@@ -1,0 +1,36 @@
+body {
+  background-color: lightblue;
+}
+.container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.25);
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.parent-container {
+}
+
+.txt-container{
+  margin: auto;
+  text-align: center;
+  background-color: rgba(0,0,0,0.25);
+  width:50%;
+  border-radius: 5px;
+}
+
+.text {
+  font-size: 1.6em;
+  font-family: arial;
+}
+
+.bigtext {
+  font-size: 2.6em;
+  font-family: arial;
+  margin: 45px;
+  text-align: center;
+}

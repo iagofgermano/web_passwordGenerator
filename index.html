@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gerador de Senha</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="parent-container">
+      <div class="container">
+        <img src="lock.png">
+      </div>
+      <div class="txt-container">
+        <span class="text">Gerador de senha aleatória</span>
+        <br><br>
+         <label for="strSize" class="text">Qual será o tamanho da senha:</label>
+         <br>
+        <input type="range" id="strSize" name="strSize" min="5" max="30" value="10"
+        oninput="document.getElementById('showsize').innerHTML = this.value;getpwd()">
+        <label id="showsize">10</label>
+      </div>
+    </div>
+    <div class="bigtext" id="pwd">
+      <\Mova a barra para determinar o tamanho da senha\>
+    </div>
+  </body>
+</html>
